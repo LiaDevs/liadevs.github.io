@@ -1,0 +1,30 @@
+.form-box[type=text]:not(.browser-default):focus:not([readonly]) {
+	border-bottom: 1px solid #79bb97;
+    box-shadow: 0 1px 0 0 #79bb97;
+}
+.form-box[type=text]:not(.browser-default):focus:not([readonly]) + label {
+	color: #79bb97;
+}
+.form-box[type=email]:not(.browser-default):focus:not([readonly]) {
+	border-bottom: 1px solid #79bb97;
+    box-shadow: 0 1px 0 0 #79bb97;
+}
+.form-box[type=email]:not(.browser-default):focus:not([readonly]) + label {
+	color: #79bb97;
+}
+textarea.form-box:focus:not([readonly]) {
+	border-bottom: 1px solid #79bb97;
+    box-shadow: 0 1px 0 0 #79bb97;
+}
+textarea.form-box:focus:not([readonly]) + label {
+	color: #79bb97;
+}
+.submit-button {
+	background-color: #79bb97;
+}
+.submit-button:hover {
+	background-color: #79bb97;
+}
+.submit-button-icon {
+	padding-left: 4px;
+}
