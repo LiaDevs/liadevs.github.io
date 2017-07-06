@@ -4,7 +4,9 @@
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
   <title>Lia</title>
+  <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon"/>
 
   <!-- Default CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -25,13 +27,13 @@
 </head>
 <body>
 
-  <nav class="nav-bar" role="navigation">
+  <nav id="navbar" role="navigation">
     <div class="nav-wrapper container">
       <a href="#" data-activates="nav-mobile" class="button-collapse">
         <i class="material-icons">menu</i>
       </a>
       <a id="logo-container" href="#home" class="brand-logo center page-scroll">
-        <img class="logo-icon" src="img/logo-paper.svg">
+        <img id="logo-icon" src="img/logo-paper.svg">
       </a>
       <ul class="right hide-on-med-and-down">
         <li><a class="page-scroll" href="#about">About</a></li>
@@ -53,7 +55,7 @@
     <br><br>
     <div class="container">
     <div class="row center">
-      <img class="banner" src="img/logo-paper.svg">
+      <img id="banner" src="img/logo-paper.svg">
       <h4 class="header col s12 light heading">Learn &middot; Interact &middot; Achieve</h4>
     </div>
     </div>
@@ -114,8 +116,14 @@
           <label for="message">Message</label>
         </div>
       </div>
-      <div class="row center">
-        <a class="btn-floating btn-large waves-effect waves-light submit-button"><i class="material-icons submit-button-icon">send</i></a>
+      <div class="row">
+        <div class="input-field col offset-s2 s2">
+          <input type="checkbox" id="subscribe" checked="checked" class="filled-in"/>
+          <label for="subscribe">Subscribe</label>
+        </div>
+        <div class="input-field col s4 center">
+          <a class="btn-floating btn-large waves-effect waves-light submit-button"><i class="material-icons submit-button-icon">send</i></a>
+        </div>
       </div>
     </form>
     </div>

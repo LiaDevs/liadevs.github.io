@@ -19,6 +19,10 @@ textarea.form-box:focus:not([readonly]) {
 textarea.form-box:focus:not([readonly]) + label {
 	color: #79bb97;
 }
+[type="checkbox"].filled-in:checked + label:after {
+	border: 2px solid #79bb97;
+	background-color: #79bb97;
+}
 .submit-button {
 	background-color: #79bb97;
 }
