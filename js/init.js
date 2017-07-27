@@ -4,6 +4,11 @@
     if ($(window).scrollTop() < $('#banner').position().top + $('#banner').height() - $('#navbar').height()) {
         $('#logo-icon').hide();
     }
+    var typed = new Typed('#typed', {
+      strings: ["social skills learning platform for children with autism", ""],
+      typeSpeed: 30,
+      loop:true
+    });
   });
 })(jQuery);
 
