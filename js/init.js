@@ -5,7 +5,7 @@
         $('#logo-icon').hide();
     }
     var typed = new Typed('#typed', {
-      strings: ["social skills learning platform for children with autism", ""],
+      strings: ["social skills learning platform for children with autism", "platform that gives kids with learning disabilities confidence in social interactions"],
       typeSpeed: 30,
       loop:true
     });
