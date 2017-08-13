@@ -6,6 +6,9 @@ body {
 a {
 	color: #79bb97;
 }
+.img-circle{
+	border-radius:50%;
+}
 #navbar {
 	background-color: rgba(63, 71, 77, 1.0);
 	font-family: 'Signika', sans-serif;
